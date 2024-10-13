@@ -1,0 +1,16 @@
+/* src/home-module/HomeComponent.css */
+.introduction {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.introduction h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.introduction p {
+  font-size: 1.2em;
+  color: #666;
+}

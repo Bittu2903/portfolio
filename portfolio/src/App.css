@@ -1,0 +1,48 @@
+.animation-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place it behind the content */
+  overflow: hidden; /* Ensures the animation does not overflow */
+}
+
+.content {
+  position: relative;
+  z-index: 1; /* Place content on top of the background */
+}
+
+.App {
+  text-align: center;
+}
+
+/* Ensure the body and root div fill the whole viewport */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Ensure the App div takes at least the full height of the viewport */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Ensure the content of the page stretches to fill remaining space */
+.content {
+  flex-grow: 1;
+}
+
+.contact {
+  bottom: 0px;
+  margin-bottom: 0px;
+  position: relative; /* This will allow the contact section to flow normally */
+  background-color: gray.100; /* Match the background */
+}
+
+.line {
+  position: fixed;
+}

@@ -1,0 +1,14 @@
+.canvas {
+    position: absolute;
+    /* border: solid 1px #ccc; */
+  }
+  
+  #canvas_wrapper {
+    width: 500px;
+    height: 500px;
+  }
+  
+  input#trace_opacity {
+    width: 400px;
+  }
+  
